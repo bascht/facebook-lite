@@ -2,7 +2,7 @@
 
 **This example App seems to be broken! Go ahead and fix it!**
 
-Someone srewed up, but luckily we have a couple of high level feature specs.
+Someone screwed up, but luckily we have a couple of high level feature specs.
 Most of the issues are very common to happen expecially new developers,
 so maybe (s)he just didn't know what (s)he was doing.
 
