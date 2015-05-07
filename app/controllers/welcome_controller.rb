@@ -1,10 +1,8 @@
 class WelcomeController < ApplicationController
-  skip_before_filter :require_login, only: :home
+  skip_before_filter :require_login, only: :index
 
   def index
-    @posst = Post.includes(:user)
-  rescue
-    # this should not happen...
-    nil
+    @posts = Post.includes(:user)
+
   end
 end
